@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: synthtrade-pro
+    buildCommand: echo "prebuilt"
+    staticPublishPath: .
